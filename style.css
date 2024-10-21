@@ -1,4 +1,22 @@
-.LAU{
+.h1{
+    text-align: center;
+    font-family: Helvetica; 
+    font-weight: bold;
+}
+.h2{
+    font-family: Helvetica; 
+    font-weight: bold;
+    
+}
+th{
+    font-size: 120%;
+  }
+  a {
+    color: rgb(0, 0, 0); 
+    
+}
+
+.LAU_colors{
     color: #00803b;
     font-weight: bold;
 }
