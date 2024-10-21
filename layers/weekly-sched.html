@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weekly Schedule</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <h1>Weekly Schedule at Expo City Dubai</h1>
+    <p>Go back to the <a href="../index.html">Main page</a>.</p>
+    <h2>Week 1</h2>
+    <p>In the first week, I began by familiarizing myself with the model, read research papers published by the developers, <br>
+        initialized the model, and got it running. I then trained default data and generated some rendered 3D volumetric scenes.<br> 
+        After that I was ready to train real data, I shot six videos from different angles and lenses to gain valuable insights <br>
+        into improving video rendering and achieving top-notch 3D model results (since the model is new and barely any documentation exists). <br>
+        By the end of the first week, I had an overview of the deep learning model and a guidance on how to enhance the rendered 3D scene.<br></p>
+        <img src="../images/rendered.png" alt="rendered image in first week" width="600" height="300">
+    
+    <h2>Week 2</h2>
+    <p>In the second week of my internship, I was introduced to Project Number 2, which involves the development of an advanced monitoring <br>
+        solution utilizing the ZED 2i 3D stereo camera. I familiarized myself with the RAFT-Stereo model by reading its research paper. <br>
+        I was able to initiate the camera and open the depth viewer. Additionally, I explored online resources in search of an improved <br>
+        deep learning model that utilizes the capabilities of Convolutional Neural Networks (CNNs).</p>
+    <h2>Week 3</h2>
+    <p>During the third week of my internship, I focused on studying the six previously collected videos in-depth. I presented my findings to the team, <br>
+        which I was assigned to improve the data training process and went further into understanding the NeRF model in terms of deep learning.<br>
+         Furthermore, i was assigned to a new setting at the Expo cite to record the data.<br>
+        Regarding the second project, despite presenting the team with alternative deep learning methods, it was decided to stick with <br>
+        the RAFT-Stereo model and proceed with it. From there, I initiated a series of tests and began understanding how the depth information <br>
+        captured by the camera is influenced by factors such as lighting conditions, colors, and various settings. 
+        </p>
+        <img src="../images/zed2i.png" alt="Ouput of ZED2i camera" width="600" height="300">
+    <h2>Week 4</h2>
+    <p>In the fourth week, I shared my findings with the team, providing insights garnered from my research and tests. I was provided a professional camera, <br>
+        a Canon EOS RP paired with a Laowa 12mm lens to conduct more comprehensive tests and evaluations for deeper exploration of the capabilities offered by NerfStudio. <br>
+        Moreover, I was tasked to deep dive into point clouds, which are collections of 3D data points used extensively in robotics applications like mapping and localization.<br>
+        My task was to understand how to generate and use them to construct interactive environments from the trained NERF models. Additionally, I was tasked to understand the <br>
+        concept of Poisson mesh (a computational representation of 3D polygons with applications in computer vision) and to generate them from the trained models in order<br>
+        to create interactive and immersive virtual environments. 
+    </p>
+    <h2>Week 5</h2>
+    <p>During the fifth week, the videos I had rendered were presented to a different department, specifically a branch of the marketing team. They expressed interest <br>
+        in the technology, and I was tasked with gathering data from offices at the EXPO CITY site for them to be professionally used. I spent the whole week <br>
+        rendering videos which I trained for multiple hours.<br>
+        On the other hand, I presented my findings to my team on how color and lighting impact depth measurements on the zed 2i camera. And after that presentation, <br>
+        A dedicated setup tailored to optimal lighting conditions was being prepared for me to work on it full-time.
+    </p>
+    <h2>Week 6</h2>
+    <p>On the sixth week, i generated a comprehensive documentation on how to effectively utilize NerfStudio within the Google Colab environment so that it wouldnt <br>
+        take so much time for my team to familiarize themselves with the software.<br>
+        Meanwhile, in the second project, I managed to successfully determine the depth of a specific point using the RAFT-Stereo model. However, the obtained depth <br>
+        value in centimeters was not close to the actual distance.<br>
+        As an alternative approach, I turned to the 3D point cloud implemented in the ZED 2i camera and achieved accurate depth results. By the end of the week, <br>
+        I presented a comprehensive report to my supervisor that showcased various graphs comparing the depth values obtained through the RAFT-Stereo model and the<br>
+        point cloud. This provided a better understanding of the accuracy differences between the two methods.
+        </p>
+        <img src="../images/desk-setup.png" alt="Desk setup at Expo" width="600" height="260">
+    <h2>Week 7</h2>
+    <p>In the seventh week, I worked with both methods point cloud and RAFT-Stereo to measure depth and perform tests simultaneously. The point cloud method was <br>
+        accurate and did not need any calibration. This allowed me to highlight a polygon (area of interest) and to calculate the average depth in specific areas <br>
+        and obtain accurate results. (Getting average depth of average since Im working with food trays)<br>
+        Meanwhile, with the RAFT-Stereo model, I did some careful calibrations in both the Z-axis and X-axis. This got stable depth readings for specific points. <br>
+        I was able to highlight a polygon of interest and was able to calculate the average depth of that polygon. By the end of the week, both the point cloud <br>
+        and RAFT-Stereo methods provided the same depth results when exposed to the same tests.<br>
+        My supervisor suggested that I focus more on working with RAFT-Stereo model going forward, as it's based on deep learning and more reliable.
+        </p>
+        <img src="../images/pointcloud.png" alt="Point Cloud highlighting the Food tray" width="600" height="343">
+    <h2>Week 8</h2>
+    <p>In the eighth week, Instead of finding the average depth in the highlighted area, I switched to using trapezoidal integration, which gives more accurate results. <br>
+        I also converted the depth values into real-world statuses, so that they can be understood by an average person.<br>
+        I set up a way to get real-time updates about the tray's status from an online device, which improved our system. I also created clear documentation about the <br>
+        RAFT-Stereo model and explained my code step by step. I also helped a colleague learn how to use my code, and now it's actively being used by the future technologies <br>
+        department at EXPO City Dubai.<br>
+        Lastly, I presented the successfully completed project to a group of colleagues and other colleagues from different departments (Expo City Technology / Food & Beverages Department).
+        </p>
+</body>
+</html>
